@@ -28,4 +28,10 @@ public class Libro {
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
+
+	@Override
+	public String toString() {
+		return "Libro [titulo=" + titulo + ", autor=" + autor + ", isbn=" + isbn + "]";
+	}
+	
 }
